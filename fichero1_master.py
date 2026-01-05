@@ -38,6 +38,18 @@ def main() -> None:
         print(f"Hash: {h[:12]}...")
         for f in files:
             print(f"  {f}")
+            print('cambio 4 after revert')
+            print('cambio 4 desg revert')
+            print('cambio 4 sfg revert')
+            print('cambio 4 aftsfer revert')
+            print('cambio 4 afsdfgter revert')
+            print('cambio 4 afgter revert')
+            print('cambio 4 afgter revert')
+            print('cambio 4 afgter revert')
+            print('cambio 4 afgter revert')
+            print('cambio 4 afggter revert')
+            print('cambio 4 afgter revert')
+            print('cambio 4 afgter revert')
         print()
 
 
