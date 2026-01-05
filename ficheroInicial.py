@@ -8,3 +8,6 @@ def fetch(url: str):
 
 if __name__ == "__main__":
     print(fetch("https://api.github.com"))
+    print(fetch("cambio2 master"))
+    print(fetch("cambio2 master"))
+    print(fetch("cambio2 master"))
