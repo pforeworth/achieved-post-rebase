@@ -19,19 +19,19 @@ class TaskQueue:
         self.queue.append(task)
 
     def run(self) -> None:
-        print("\nEjecutando tareas:\n cambio 3cambio 3")
+        print("\nEjecutando tareas:\n")
         while self.queue:
             task = self.queue.popleft()
-            print(f"→ {task.name} ({task.duration}s) cambio 3")
+            print(f"→ {task.name} ({task.duration}s)")
             time.sleep(task.duration)
-            print(f"✓ {task.name} completada\n cambio 3")
+            print(f"✓ {task.name} completada\n")
 
 
 def main() -> None:
     q = TaskQueue()
-    q.add(Task("Descargar datos cambio 3", 1))
-    q.add(Task("Procesar datos cambio 3", 2))
-    q.add(Task("Generar reporte cambio 3", 1.5))
+    q.add(Task("Descargar datos", 1))
+    q.add(Task("Procesar datos", 2))
+    q.add(Task("Generar reporte", 1.5))
     q.run()
 
 
