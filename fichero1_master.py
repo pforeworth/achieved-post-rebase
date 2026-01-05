@@ -38,6 +38,11 @@ def main() -> None:
         print(f"Hash: {h[:12]}...")
         for f in files:
             print(f"  {f}")
+            print('cambio 3 master')
+            print('cambio 3 master')
+            print('cambio 3 master')
+            print('cambio 3 master')
+            print('cambio 3 master')
         print()
 
 
